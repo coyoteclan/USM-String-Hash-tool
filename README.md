@@ -4,7 +4,7 @@ This tool converts string to hash code by using a function created by Lemon Haze
 
 ## Usage
 
-- Download the compiled executable file from the binary folder.
+- Download the compiled [executable file](https://github.com/coyoteclan/usm_string_hash_dictionary_tool/blob/main/bin/hashtool.exe) from the [binary folder](https://github.com/coyoteclan/usm_string_hash_dictionary_tool/tree/main/bin).
 
 <img src="images/download.gif" alt="download"/>
 
