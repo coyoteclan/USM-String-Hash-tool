@@ -4,7 +4,13 @@ This tool convert string to hash code by using a function created by Lemon Haze.
 
 ## Usage
 
-Type the input string in text box and smash the "Hash!" button.
+- Download the compiled executable file from the binary folder.
+
+<img src="images/download.gif" alt="download"/>
+
+- Run the downloaded file.
+
+- Type the input string in text box and smash the "Hash!" button.
 
 <img src="images/img.png" alt="screenshot"/>
 
