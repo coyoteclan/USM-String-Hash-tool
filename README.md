@@ -1,12 +1,22 @@
 # usm_string_hash_dictionary_tool
-this tool convert string to hash code with algorithm tolower. You can edit the string name inside the source file
 
+This tool convert string to hash code by using a function created by Lemon Haze.
 
+## Usage
 
-Usage : cmd.exe usm_string_hash_dictionary_tool.exe
+Type the input string in text box and smash the "Hash!" button.
 
-and the program automaticaly show hash_code from input name
+<img src="images/img.png" alt="screenshot"/>
 
-default input name is PK_S01_FATHERS_PRIDE
+## Compiling
 
-credits by Lemonaze
+This tool is comiled with mingw compiler on linux. I have no idea how to do it on windows.
+
+Make sure you have installed `mingw-w64-i686-dev` (necessary for this compilation) or `mingw-w64` (to install the full toolchain).
+
+Type the following command to compile the tool.
+
+``i686-w64-mingw32-g++ -static-libgcc -static-libstdc++ -o hashtool.exe main.cpp hashtool.res -mwindows -luxtheme``
+
+If you modify the manifest file, you will need to recreate the res file first.
+``i686-w64-mingw32-windres hashtool.rc -O coff -o hashtool.res``
