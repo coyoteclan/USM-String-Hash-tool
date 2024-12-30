@@ -23,8 +23,12 @@ Make sure you have installed `mingw-w64-i686-dev` (necessary for this compilatio
 Type the following command to compile the tool.
 
 ```bash
-i686-w64-mingw32-g++ -static-libgcc -static-libstdc++ -o hashtool.exe main.cpp hashtool.res -mwindows -luxtheme
+mkdir build
+cd build
+cmake ..
+make
 ```
+Then find hashtool.exe in bin folder.
 
 If you modify the manifest file, you will need to recreate the res file first.
 ```bash
