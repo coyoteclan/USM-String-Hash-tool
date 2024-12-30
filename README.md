@@ -1,4 +1,4 @@
-# usm_string_hash_dictionary_tool
+# USM-String-Hash-tool
 
 This tool converts string to hash code by using a function created by Lemon Haze.
 
