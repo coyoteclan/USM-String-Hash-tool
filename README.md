@@ -20,7 +20,7 @@ This tool is comiled with mingw compiler on linux. I have no idea how to do it o
 
 Make sure you have installed `mingw-w64-i686-dev` (necessary for this compilation) or `mingw-w64` (to install the full toolchain).
 
-Type the following command to compile the tool.
+Type the following commands to compile the tool.
 
 ```bash
 mkdir build
@@ -28,9 +28,9 @@ cd build
 cmake ..
 make
 ```
-Then find hashtool.exe in bin folder.
+Then find **hashtool.exe** in bin folder.
 
-If you modify the manifest file, you will need to recreate the res file first.
+If you modify the manifest file, you will need to recreate the res.o file first.
 ```bash
-i686-w64-mingw32-windres hashtool.rc -O coff -o hashtool.res
+i686-w64-mingw32-windres hashtool.rc -O coff -o hashtool.res.o
 ```
