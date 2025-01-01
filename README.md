@@ -18,7 +18,7 @@ This tool converts string to hash code by using a function created by Lemon Haze
 
 This tool is comiled with mingw compiler on linux. I have no idea how to do it on windows.
 
-Make sure you have installed `mingw-w64-i686-dev` (necessary for this compilation) or `mingw-w64` (to install the full toolchain).
+Make sure you have installed `cmake` and `mingw-w64-i686-dev` (necessary for this compilation) or `mingw-w64` (to install the full toolchain).
 
 Type the following commands to compile the tool.
 
